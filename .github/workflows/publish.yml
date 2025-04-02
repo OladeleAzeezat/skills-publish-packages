@@ -31,5 +31,4 @@ jobs:
           context: .
           push: true
           tags: ${{ steps.meta.outputs.tags }}
-            FROM nginx:1.24-alpine
-            COPY . /usr/share/nginx/html
+          
